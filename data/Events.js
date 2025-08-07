@@ -1,0 +1,65 @@
+export const events = [
+  {
+    title: 'Team Standup',
+    date: new Date(),
+    time: '09:00',
+    duration: 30,
+    color: 'blue',
+  },
+  {
+    title: 'Design Review',
+    date: new Date(),
+    time: '11:00',
+    duration: 90,
+    color: 'purple',
+  },
+  {
+    title: 'Code Push to Repo',
+    date: new Date(),
+    time: '15:00',
+    duration: 60,
+    color: 'green',
+  },
+  {
+    title: 'Project Sync with PM',
+    date: new Date(new Date().setDate(new Date().getDate() + 1)),
+    time: '10:00',
+    duration: 45,
+    color: 'blue',
+  },
+  {
+    title: 'User Testing Session',
+    date: new Date(new Date().setDate(new Date().getDate() + 1)),
+    time: '14:00',
+    duration: 120,
+    color: 'red',
+  },
+  {
+    title: 'Complete Assignment',
+    date: new Date(new Date().setDate(new Date().getDate() - 2)),
+    time: '13:00',
+    duration: 180,
+    color: 'green',
+  },
+  {
+    title: 'Share Demo with Team',
+    date: new Date(new Date().setDate(new Date().getDate() + 2)),
+    time: '16:30',
+    duration: 30,
+    color: 'purple',
+  },
+  {
+    title: 'Dentist Appointment',
+    date: new Date(new Date().setDate(new Date().getDate() - 10)),
+    time: '08:30',
+    duration: 45,
+    color: 'red',
+  },
+  {
+    title: 'Planning Session Q4',
+    date: new Date(new Date().setDate(new Date().getDate() + 5)),
+    time: '09:30',
+    duration: 120,
+    color: 'blue',
+  }
+];
