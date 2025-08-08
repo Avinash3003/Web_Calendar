@@ -12,8 +12,10 @@ export const generateMonthMatrix = (date) => {
   const monthEnd = endOfMonth(date);
   const startDate = startOfWeek(monthStart);
   const endDate = endOfWeek(monthEnd);
+  // console.log("-----------",date,monthStart,monthEnd,startDate,endDate);
 
   const days = eachDayOfInterval({ start: startDate, end: endDate });
+  // console.log(days)
   const weeks = [];
   let currentWeek = [];
 
@@ -24,7 +26,7 @@ export const generateMonthMatrix = (date) => {
       currentWeek = [];
     }
   });
-
+  console.log(weeks);
   return weeks;
 };
 

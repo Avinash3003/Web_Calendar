@@ -6,7 +6,7 @@ const CalendarHeader = ({ currentDate, onPrevMonth, onNextMonth, onGoToToday }) 
   return (
     <div className="flex items-center justify-between mb-6">
       <h2 className="text-2xl font-bold text-gray-800">
-        {format(currentDate, 'MMMM yyyy')}
+        {format(currentDate, 'dd MMMM yyyy')}
       </h2>
       <div className="flex items-center space-x-2">
         <button
