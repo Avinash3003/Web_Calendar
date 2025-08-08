@@ -28,6 +28,7 @@ const CalendarGrid = ({ currentDate, selectedDate, events, onSelectDate }) => {
       ))}
       {monthMatrix.flat().map((day, index) => {
         const dayEvents = eventsByDate[day.toDateString()] || [];
+        // console.log("--***--",day,index);
         return (
           <CalendarDay
             key={index}

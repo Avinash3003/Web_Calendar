@@ -78,7 +78,7 @@ export const events = [
   },
   ,
   {
-    title: 'Dimple\'s Birthday Party',
+    title: 'Raju\'s Birthday Party',
     date: new Date(),
     time: '21:30',
     duration: 50,

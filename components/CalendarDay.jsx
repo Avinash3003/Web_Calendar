@@ -19,7 +19,7 @@ const CalendarDay = ({ day, isCurrentMonth, isToday, isSelected, events, onSelec
 
   return (
     <div className={cellClasses} onClick={() => onSelectDate(day)}>
-      <div className="flex justify-end">
+      <div className="flex  justify-end">
         <div className={dayNumberClasses}>
           {format(day, 'd')}
         </div>
